@@ -384,24 +384,27 @@ p {
     border-radius: 8px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 25px;
 }
 
+.experience-content {
+    flex: 1;
+}
+
 .experience-logo {
-    width: 100px;
-    height: 100px;
+    width: 100px !important;
+    height: 100px !important;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    max-height: 100px;
     object-fit: contain;
     flex-shrink: 0;
     border-radius: 8px;
     background-color: white;
     padding: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    order: 2;
-}
-
-.experience-content {
-    flex: 1;
-    order: 1;
 }
 
 .teaching-item h3 {
