@@ -207,9 +207,26 @@ p {
     font-size: 0.9rem;
 }
 
+/* Education and Interests Container */
+.education-interests-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.education-column,
+.interests-column {
+    flex: 1;
+}
+
+.education-column h3,
+.interests-column h3 {
+    margin-top: 0;
+}
+
 .interests-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 12px;
 }
 
@@ -611,8 +628,9 @@ footer a:hover {
         font-size: 1.6rem;
     }
 
-    .interests-list {
-        grid-template-columns: 1fr;
+    .education-interests-container {
+        flex-direction: column;
+        gap: 20px;
     }
 
     .contact-info {
