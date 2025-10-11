@@ -382,6 +382,21 @@ p {
     padding: 20px;
     background-color: var(--bg-light);
     border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.experience-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.experience-content {
+    flex: 1;
 }
 
 .teaching-item h3 {
