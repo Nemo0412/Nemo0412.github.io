@@ -220,6 +220,12 @@ p {
     border-left: 3px solid var(--accent-color);
 }
 
+.interests-list li i {
+    color: var(--accent-color);
+    margin-right: 10px;
+    font-size: 1.1em;
+}
+
 .hobbies {
     margin-top: 10px;
     margin-bottom: 15px;
