@@ -311,6 +311,17 @@ p {
     color: var(--primary-color);
 }
 
+.publication h3 a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.publication h3 a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
 .authors {
     color: var(--text-color);
     margin-bottom: 5px;
