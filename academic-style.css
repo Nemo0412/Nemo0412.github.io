@@ -35,31 +35,12 @@ body {
 /* Sidebar */
 .sidebar {
     width: 280px;
-    background-image: url('background/background.JPG');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: var(--bg-color);
     padding: 40px 20px;
     position: fixed;
     height: 100vh;
     overflow-y: auto;
     border-right: 1px solid var(--border-color);
-}
-
-.sidebar::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(255, 255, 255, 0.92);
-    z-index: 0;
-}
-
-.sidebar > * {
-    position: relative;
-    z-index: 1;
 }
 
 .profile {
