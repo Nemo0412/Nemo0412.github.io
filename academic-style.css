@@ -392,19 +392,29 @@ p {
     flex: 1;
 }
 
-.experience-logo {
-    width: 100px !important;
-    height: 100px !important;
-    min-width: 100px;
-    min-height: 100px;
-    max-width: 100px;
-    max-height: 100px;
-    object-fit: contain;
+.experience-logo-container {
+    width: 120px;
+    height: 120px;
+    min-width: 120px;
+    min-height: 120px;
+    max-width: 120px;
+    max-height: 120px;
     flex-shrink: 0;
-    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: white;
-    padding: 10px;
+    border-radius: 8px;
+    padding: 15px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience-logo {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
 }
 
 .teaching-item h3 {
