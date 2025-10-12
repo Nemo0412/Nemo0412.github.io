@@ -183,13 +183,6 @@ p {
 }
 
 /* About Section */
-.inline-university-logo {
-    height: 1.2em;
-    width: auto;
-    vertical-align: middle;
-    margin: 0 2px;
-}
-
 .about-content ul {
     list-style: none;
     padding-left: 0;
