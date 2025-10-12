@@ -183,6 +183,14 @@ p {
 }
 
 /* About Section */
+.inline-emoji-logo {
+    height: 1em;
+    width: auto;
+    vertical-align: baseline;
+    display: inline;
+    margin: 0 0.1em;
+}
+
 .about-content ul {
     list-style: none;
     padding-left: 0;
