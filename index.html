@@ -376,6 +376,21 @@
                 }
             });
         });
+
+        // Profile image toggle
+        const profileImg = document.querySelector('.profile-img');
+        let currentImage = 1;
+        
+        profileImg.style.cursor = 'pointer';
+        profileImg.addEventListener('click', () => {
+            if (currentImage === 1) {
+                profileImg.src = 'figure2.jpg';
+                currentImage = 2;
+            } else {
+                profileImg.src = 'IMG_7210.JPG';
+                currentImage = 1;
+            }
+        });
     </script>
 </body>
 </html>
