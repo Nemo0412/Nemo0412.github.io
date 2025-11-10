@@ -344,17 +344,14 @@ p {
     margin-top: 0;
     font-size: 1.15rem;
     color: var(--primary-color);
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 8px;
+    line-height: 1.6;
 }
 
 .publication h3 a {
     color: var(--text-color);
     text-decoration: none;
     transition: transform 0.3s ease;
-    display: inline-block;
+    display: inline;
 }
 
 .publication h3 a:hover {
@@ -392,11 +389,9 @@ p {
 }
 
 .tags-inline {
-    display: inline-flex;
-    gap: 6px;
-    margin-left: 0;
-    vertical-align: middle;
-    flex-shrink: 0;
+    display: inline;
+    margin-left: 8px;
+    white-space: nowrap;
 }
 
 .tag {
@@ -409,6 +404,8 @@ p {
     transition: all 0.3s ease;
     border: none;
     vertical-align: middle;
+    margin-left: 4px;
+    line-height: 1.4;
 }
 
 .tag-architecture {
