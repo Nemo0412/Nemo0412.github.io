@@ -344,6 +344,10 @@ p {
     margin-top: 0;
     font-size: 1.15rem;
     color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
 .publication h3 a {
@@ -390,8 +394,9 @@ p {
 .tags-inline {
     display: inline-flex;
     gap: 6px;
-    margin-left: 10px;
+    margin-left: 0;
     vertical-align: middle;
+    flex-shrink: 0;
 }
 
 .tag {
