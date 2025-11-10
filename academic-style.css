@@ -389,42 +389,43 @@ p {
 
 .tag {
     display: inline-block;
-    padding: 4px 12px;
-    border-radius: 12px;
+    padding: 5px 14px;
+    border-radius: 15px;
     font-size: 0.85rem;
-    font-weight: 500;
-    color: white;
+    font-weight: 600;
+    color: white !important;
     transition: all 0.3s ease;
+    border: none;
 }
 
 .tag-architecture {
-    background-color: #3b82f6;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
 }
 
 .tag-architecture:hover {
-    background-color: #2563eb;
+    background: linear-gradient(135deg, #5568d3 0%, #63408a 100%) !important;
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(59, 130, 246, 0.3);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
 }
 
 .tag-algorithm {
-    background-color: #10b981;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%) !important;
 }
 
 .tag-algorithm:hover {
-    background-color: #059669;
+    background: linear-gradient(135deg, #d87fe3 0%, #dc4557 100%) !important;
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(16, 185, 129, 0.3);
+    box-shadow: 0 4px 12px rgba(240, 147, 251, 0.4);
 }
 
 .tag-system {
-    background-color: #f59e0b;
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%) !important;
 }
 
 .tag-system:hover {
-    background-color: #d97706;
+    background: linear-gradient(135deg, #3a8bd9 0%, #00d4e6 100%) !important;
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(245, 158, 11, 0.3);
+    box-shadow: 0 4px 12px rgba(79, 172, 254, 0.4);
 }
 
 .pub-links {
