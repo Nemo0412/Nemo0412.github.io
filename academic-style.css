@@ -435,14 +435,6 @@ p {
     opacity: 0.85;
 }
 
-.tag-system {
-    background-color: #4fb8fe !important;
-}
-
-.tag-system:hover {
-    opacity: 0.85;
-}
-
 .pub-links {
     display: flex;
     flex-wrap: wrap;
