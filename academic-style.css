@@ -211,8 +211,8 @@ p {
 }
 
 .news-offer {
-    color: #dc2626;
-    font-weight: 700;
+    color: #dc2626 !important;
+    font-weight: 700 !important;
 }
 
 .about-content ul {
