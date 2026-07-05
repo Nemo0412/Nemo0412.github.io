@@ -119,6 +119,8 @@
             <!-- Publications Section -->
             <section id="publications">
                 <h2>Publications & Manuscripts</h2>
+                
+                <h3 class="pub-category">Architecture</h3>
                 <div class="publications-content">
                     <div class="publication">
                         <h3><a href="https://aclanthology.org/2026.findings-acl.1992.pdf" target="_blank">LipoAgent: Coordinating Fine-Tuned LLM Agents for Safer Lipid Design</a></h3>
@@ -240,7 +242,7 @@
                 <div class="experience-list">
                     <div class="experience-item">
                         <p><strong>Research Assistant</strong>, Zhao Lab, University of Minnesota<br>
-                        <span class="experience-date">Jun. 2024 – Present</span></p>
+                        <span class="experience-date">Jun. 2024 – Jan. 2026</span></p>
                     </div>
 
                     <div class="experience-item">
@@ -250,7 +252,7 @@
 
                     <div class="experience-item">
                         <p><strong>Research Intern</strong>, Sai Lab, New York University<br>
-                        <span class="experience-date">Aug. 2025 – Present</span></p>
+                        <span class="experience-date">Aug. 2025 – Apr. 2026</span></p>
                     </div>
 
                     <div class="experience-item">
@@ -360,38 +362,6 @@
             });
         });
 
-        // Profile image toggle with fade animation
-        const profileImg = document.querySelector('.profile-img');
-        let currentImage = 1;
-        let isAnimating = false;
-        
-        profileImg.style.cursor = 'pointer';
-        profileImg.addEventListener('click', () => {
-            if (isAnimating) return; // Prevent multiple clicks during animation
-            
-            isAnimating = true;
-            
-            // Fade out
-            profileImg.classList.add('fade-out');
-            
-            setTimeout(() => {
-                // Change image
-                if (currentImage === 1) {
-                    profileImg.src = 'figure2.jpg';
-                    currentImage = 2;
-                } else {
-                    profileImg.src = 'IMG_7210.JPG';
-                    currentImage = 1;
-                }
-                
-                // Fade in
-                profileImg.classList.remove('fade-out');
-                
-                setTimeout(() => {
-                    isAnimating = false;
-                }, 500);
-            }, 500);
-        });
     </script>
 </body>
 </html>

@@ -54,15 +54,6 @@ body {
     object-fit: cover;
     margin-bottom: 20px;
     border: 2px solid var(--border-color);
-    transition: opacity 0.5s ease;
-}
-
-.profile-img:hover {
-    opacity: 0.9;
-}
-
-.profile-img.fade-out {
-    opacity: 0;
 }
 
 .profile h1 {
@@ -352,6 +343,20 @@ p {
 }
 
 /* Publications Section */
+.pub-category {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 8px;
+}
+
+.pub-category:first-of-type {
+    margin-top: 0;
+}
+
 .publication {
     margin-bottom: 28px;
     padding: 0;
