@@ -201,6 +201,24 @@ p {
     margin: 0 0.1em;
 }
 
+/* News Section */
+.news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news-list li {
+    padding: 8px 0;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.news-list li strong {
+    color: var(--accent-color);
+    font-weight: 600;
+}
+
 .about-content ul {
     list-style: none;
     padding-left: 0;
@@ -479,56 +497,30 @@ p {
     text-decoration: underline;
 }
 
-/* Teaching Section */
-.teaching-item {
-    margin-bottom: 25px;
-    padding: 20px;
-    background-color: var(--bg-light);
-    border-radius: 8px;
+/* Experience Section */
+.experience-list {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 25px;
+    flex-direction: column;
+    gap: 16px;
 }
 
-.experience-content {
-    flex: 1;
+.experience-item {
+    padding: 0;
 }
 
-.experience-logo-container {
-    width: 150px;
-    height: 150px;
-    min-width: 150px;
-    min-height: 150px;
-    max-width: 150px;
-    max-height: 150px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    border-radius: 8px;
-    padding: 15px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+.experience-item p {
+    margin: 0;
+    line-height: 1.6;
 }
 
-.experience-logo {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-    object-fit: contain;
-}
-
-.teaching-item h3 {
-    margin-top: 0;
-    font-size: 1.2rem;
-}
-
-.course-info {
-    color: var(--accent-color);
+.experience-item strong {
+    color: var(--primary-color);
     font-weight: 600;
-    margin-bottom: 10px;
+}
+
+.experience-date {
+    color: var(--text-light);
+    font-size: 0.9rem;
 }
 
 /* CV Section */
