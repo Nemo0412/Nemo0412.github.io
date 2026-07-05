@@ -205,9 +205,14 @@ p {
     color: var(--text-color);
 }
 
-.news-list li strong {
-    color: var(--accent-color);
+.news-date {
+    color: var(--text-color);
     font-weight: 600;
+}
+
+.news-offer {
+    color: #dc2626;
+    font-weight: 700;
 }
 
 .about-content ul {
