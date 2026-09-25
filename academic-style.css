@@ -516,7 +516,7 @@ p {
 .experience-list {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 8px;
 }
 
 .experience-item {
@@ -560,7 +560,7 @@ p {
 }
 
 .experience-item {
-    margin-bottom: 25px;
+    margin-bottom: 12px;
 }
 
 .experience-item h4 {
